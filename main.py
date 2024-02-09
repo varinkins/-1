@@ -1,16 +1,15 @@
-# This is a sample Python script.
+class student:
+    pass
+students =[]
+n = int(input())
+for i in range(n):
+    students.append(student())
+for i in range(n):
+    inpt = int(input())
+    students[i].fname = inpt[0]
+    students[i].name = inpt[1]
+    students[i].sname = inpt[2]
+    students[i].ball = inpt[3]
+    students[i].clas = inpt[4]
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+8 to toggle the breakpoint.
-1
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
