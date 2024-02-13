@@ -1,5 +1,6 @@
 class student:
     pass
+mx = 0
 students =[]
 n = int(input())
 for i in range(n):
@@ -18,4 +19,3 @@ for i in range(n):
 for i in range(n):
     if students[i].ball == mx and students[i].clas == 10:
         print (students[i].name, students[i].fname)
-
