@@ -6,10 +6,16 @@ for i in range(n):
     students.append(student())
 for i in range(n):
     inpt = int(input())
-    students[i].fname = inpt[0]
-    students[i].name = inpt[1]
-    students[i].sname = inpt[2]
-    students[i].ball = inpt[3]
-    students[i].clas = inpt[4]
-
+    students[i].fname = inpt
+    students[i].name = inpt
+    students[i].sname = inpt
+    students[i].ball = inpt
+    students[i].clas = inpt
+    students[i].score = inpt
+for i in range(n):
+    if students[i].ball > mx:
+        mx = students[i].ball
+for i in range(n):
+    if students[i].ball == mx and students[i].clas == 10:
+        print (students[i].name, students[i].fname)
 
