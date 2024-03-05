@@ -16,6 +16,10 @@ for i in range(n):
 for i in range(n):
     if students[i].ball > mx:
         mx = students[i].ball
+a = []
 for i in range(n):
     if students[i].ball == mx and students[i].clas == 10:
-        print (students[i].name, students[i].fname)
+        a.add(i)
+print('1 место:',students[0].name, students[0].fname)
+print('2 место:',students[1].name, students[1].fname)
+print('3 место:',students[2].name, students[2].fname)
